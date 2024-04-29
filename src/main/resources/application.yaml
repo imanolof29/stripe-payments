@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/stripe-payments
+    username: postgres
+    password:
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+stripe:
+  endpoint:
+    secret:
+  secret:
+    key:
